@@ -35,11 +35,6 @@ typedef struct wl_display    *EGLNativeDisplayType;
 }
 #endif
 
-/* EGL 1.2 types, renamed for consistency in EGL 1.3 */
-typedef void             *EGLNativeDisplayType;
-typedef khronos_uintptr_t EGLNativePixmapType;
-typedef khronos_uintptr_t EGLNativeWindowType;
-
 /* Define EGLint. This must be an integral type large enough to contain
  * all legal attribute names and values passed into and out of EGL,
  * whether their type is boolean, bitmask, enumerant (symbolic
